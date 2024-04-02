@@ -5,3 +5,5 @@
 ##
 
 ### Introduction
+
+Individual Git Exercise to understand and practice git commits, pulls, request with code development.
