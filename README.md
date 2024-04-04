@@ -22,3 +22,5 @@ Player 2 is considered as a bot to automatically select a random space on the gr
 Both players take turns until there is a winner or a tied game.
 
 If either player selects a number that has already been taken on the grid an error message will be displayed prompting the same player to try again.
+
+[Annze Individual Git Project Video](https://youtu.be/s_cxG0cKoxM?si=UcXOKnyj08jKQbVb)
