@@ -128,6 +128,11 @@ void grid()
     cout << "     |     |     " << endl;
 }
 
+//Simple number Randomizer
+int randomNum() 
+{
+    return rand() % 9 + 1; // Generates random number between 1 and 9
+}
 
 
 int main()
@@ -144,8 +149,20 @@ int main()
         grid();
         player = (player % 2) ? 1 : 2;
 
-        cout << "Player " << player << ", enter a number";
-        cin >> choice;
+
+        
+        if (player == 1) {
+
+            //player 1 input
+            cout << "Player " << player << ", enter the number you want to insert your mark in: ";
+            cin >> choice;
+        }
+        else {
+            // Player 2 - random number
+            choice = randomNum();
+        }
+
+
 
         mark = (player == 1) ? 'X' : 'O';
 
